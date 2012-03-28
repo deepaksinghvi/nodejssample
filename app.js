@@ -3,9 +3,9 @@ var express = require('express'),
     jade = require('jade'),
     app = module.exports = express.createServer(),
     mongoose = require('mongoose'),
-	models = require('./models/model.js'),
-	stylus = require('stylus'),
-	db,
+    models = require('./models/model.js'),
+    stylus = require('stylus'),
+    db,
     TestUser;
 	
 app.configure(function() {
@@ -55,7 +55,7 @@ app.get('/userlist', function(req, res) {
 
 
 
-// Create document 
+// Create user 
 app.post('/newuser', function(req, res) {
   var d = new TestUser(req.body.d);
   //console.log(req);
