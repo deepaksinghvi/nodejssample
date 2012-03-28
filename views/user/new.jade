@@ -1,0 +1,7 @@
+.page
+  p
+    a.button(href='/userlist')  Show Users
+  h2 Create New User  
+  form(method='post', action='/newuser')
+    !=partial('fields', { locals: { d: d } })
+
