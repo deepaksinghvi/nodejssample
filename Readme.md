@@ -1,7 +1,7 @@
 Sample application based on node.js, mongodb and jade
 -----------------------------------------------------
 
-Some more details are available at www.deepaksinghviblog.blogspot.com
+Some more details are available at http://deepaksinghviblog.blogspot.in/2012/03/power-of-script-writing-in-in-world-of.html
 
 Dependencies
 -------------
