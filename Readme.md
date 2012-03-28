@@ -1,9 +1,10 @@
-h3. Sample application based on node.js, mongodb and jade
+Sample application based on node.js, mongodb and jade
+-----------------------------------------------------
 
 Some more details are available at www.deepaksinghviblog.blogspot.com
 
-h3. Dependencies
-
+Dependencies
+-------------
 You must have node, npm, mongodb (node package manager):
 
 Some more libraries which are required, to install them use
