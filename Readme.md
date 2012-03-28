@@ -16,3 +16,8 @@ npm install jade
 
 mongodb should be running to run it use
 command prompt > mongodb --dbpath yourpath/data/db
+
+Starting
+---------
+
+node app.js
