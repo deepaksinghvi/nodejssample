@@ -44,7 +44,7 @@ app.get('/newuser', function(req, res) {
 app.get('/userlist', function(req, res) {
   TestUser.find({}, function(err, user) {
 	user = user.map(function(u) {
-      return { username: u.username, password: d.password };
+      return { username: u.username, password: u.password };
     });
     res.render('user/index.jade', {
       locals: { d: user }
